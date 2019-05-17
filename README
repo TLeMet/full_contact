@@ -1,0 +1,5 @@
+These python scripts are useful for automating the counting of protein-membrane contacts using GROMACS mindist and plotting results.
+
+It can also add the mean distance between membrane and protein if prot_z.xvg and membrane_z.xvg files output by gmx traj and containing the Z_coordinate of COMs for both groups over the run are provided.
+
+Contacts counting can be refined to specific lipid types or amino-acids using specific_contact.
